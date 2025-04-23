@@ -15,4 +15,5 @@ public class JobPost {
     private String description;
     private String location;
 
+
 }

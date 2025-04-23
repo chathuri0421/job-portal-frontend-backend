@@ -24,4 +24,12 @@ public class JobService {
     public JobPost getJobById(int postId) {
         return repo.getJobById(postId); // ✅ Correct method call
     }
+
+    public void updateJob(JobPost jobPost) {
+        repo.updateJob(jobPost);
+    }
+
+    public void deleteJob(Object postId) {
+        repo.deleteJob((Integer) postId);
+    }
 }
